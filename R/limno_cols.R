@@ -9,7 +9,12 @@ limno_cols <- function(...) {
     `limno_sun`            = "#f3eb00",
     `limno_calm`           = "#bce4e5",
     `limno_rain`           = "#cfe0f3",
-    `limno_lemonade`       = "#e7efbc"
+    `limno_lemonade`       = "#e7efbc",
+    `limno_scarlett`       = "#3ff2e00",
+    `limno_orange`         = "#ef5700",
+    `limno_hunter`         = "#415d43",
+    `limno_grey30`         = "#4d4d4d",
+    `limno_grey60`         = "#999999"
     )
 
 
