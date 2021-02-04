@@ -1,13 +1,16 @@
 limno_cols <- function(...) {
 
   limno_colors <- c(
-    `red`        = "#d11141",
-    `green`      = "#00b159",
-    `blue`       = "#00aedb",
-    `orange`     = "#f37735",
-    `yellow`     = "#ffc425",
-    `light grey` = "#cccccc",
-    `dark grey`  = "#8c8c8c")
+    `limno_navy`           = "#174a7c",
+    `limno_pale_blue`      = "#56a1d3",
+    `limno_lime`           = "#8ec63f",
+    `limno_acqua`          = "#5b9b97",
+    `limno_sky`            = "#88cbdf",
+    `limno_sun`            = "#f3eb00",
+    `limno_calm`           = "#bce4e5",
+    `limno_rain`           = "#cfe0f3",
+    `limno_lemonade`       = "#e7efbc"
+    )
 
 
   cols <- c(...)

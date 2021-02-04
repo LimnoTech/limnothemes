@@ -1,15 +1,17 @@
 limno_pal <- function(palette = "main", reverse = FALSE, ...) {
 
   limno_palettes <- list(
-    `main`  = limno_cols("blue", "green", "yellow"),
+    `main`  = limno_cols("limno_navy", "limno_pale_blue", "limno_lime"),
 
-    `cool`  = limno_cols("blue", "green"),
+    `secondary` = limno_cols("limno_acqua", "limno_sky", "limno_sun", "limno_calm", "limno_rain", "limno_lemonade")
 
-    `hot`   = limno_cols("yellow", "orange", "red"),
+    #edit these later with new cool colors from aflynn
+    #`cool`  = limno_cols("blue", "green"),
 
-    `mixed` = limno_cols("blue", "green", "yellow", "orange", "red"),
+    #edit these later with new warm colors from aflynn
+    #`hot`   = limno_cols("yellow", "orange", "red"),
 
-    `grey`  = limno_cols("light grey", "dark grey")
+    #add other specific diverging or categorical scales below
   )
 
   pal <- limno_palettes[[palette]]
