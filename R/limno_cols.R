@@ -1,3 +1,11 @@
+#' limno_cols
+#'
+#' @param ...
+#'
+#' @return
+#' @export
+#'
+#' @examples
 limno_cols <- function(...) {
 
   limno_colors <- c(

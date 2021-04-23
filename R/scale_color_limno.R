@@ -1,3 +1,14 @@
+#' scale_color_limno
+#'
+#' @param palette
+#' @param discrete
+#' @param reverse
+#' @param ...
+#'
+#' @return
+#' @export
+#'
+#' @examples
 scale_color_limno <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
 
   pal <- limno_pal(palette = palette, reverse = reverse)

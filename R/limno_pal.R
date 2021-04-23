@@ -1,3 +1,13 @@
+#' limno_pal
+#'
+#' @param palette
+#' @param reverse
+#' @param ...
+#'
+#' @return
+#' @export
+#'
+#' @examples
 limno_pal <- function(palette = "main", reverse = FALSE, ...) {
 
   limno_palettes <- list(

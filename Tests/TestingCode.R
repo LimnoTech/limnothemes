@@ -1,6 +1,6 @@
 ####
-
-
+library(ggplot2)
+devtools::load_all()
 
 # Base ggplot
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color=Species)) +
