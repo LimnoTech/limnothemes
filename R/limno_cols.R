@@ -10,18 +10,20 @@ limno_cols <- function(...) {
 
   limno_colors <- c(
     `limno_navy`           = "#174a7c",
-    `limno_pale_blue`      = "#56a1d3",
-    `limno_lime`           = "#8ec63f",
-    `limno_acqua`          = "#5b9b97",
-    `limno_sky`            = "#88cbdf",
-    `limno_sun`            = "#f3eb00",
-    `limno_calm`           = "#bce4e5",
-    `limno_rain`           = "#cfe0f3",
-    `limno_lemonade`       = "#e7efbc",
-    `limno_scarlett`       = "#3ff2e00",
-    `limno_orange`         = "#ef5700",
-    `limno_hunter`         = "#415d43",
-    `limno_grey30`         = "#4d4d4d",
+    `limno_blue`           = "#3775A8",                
+    `limno_lightblue`      = "#56a1d3",
+    `limno_cornflower`     = "#93cbf1",
+    `limno_hunter`         = "#4A6D4D",
+    `limno_moss`           = "#6B916E",
+    `limno_lightgreen`     = "#94C197",
+    `limno_purple`         = "#6A1148",
+    `limno_red`            = "#DF4D4D",
+    `limno_pink`           = "#ffa399",
+    `limno_marigold`       = "#FFA552",
+    `limno_yellow`         = "#F2D17E",
+    `limno_silver`         = "#C7C7C7",
+    `limno_platinum`       = "#6A1148",
+    `limno_grey30`         = "#E5E5E5",
     `limno_grey60`         = "#999999"
     )
 
