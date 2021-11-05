@@ -15,7 +15,7 @@ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color=Species)) +
   labs(title = "Plot Title",
        subtitle = "Subtitle",
        caption = "Caption: This is the plot caption") +
-  scale_color_limno(palette = "secondary") +
+  scale_color_limno() +
   theme_limno()
 
 
@@ -43,6 +43,21 @@ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color=Species)) +
                      expand = c(0,0)) +
   scale_color_limno() +
   theme_limno()
+
+
+
+
+######### if running before loading package:
+
+
+# Base ggplot
+ggplot2::ggplot(iris, ggplot2::aes(x = Sepal.Length, y = Sepal.Width, color=Species)) +
+  ggplot2::geom_point() +
+  ggplot2::theme(axis.title = ggplot2::element_text(family = 'Calibri'))
+
+
+
+
 
 
 
