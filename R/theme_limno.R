@@ -3,7 +3,7 @@
 #' @return
 #' @export
 #'
-#' @examples ggplot(data, aes(x=x,y=y)) + geom_point() + theme_limno()
+#' @examples
 theme_limno <- function() {
 
   theme_minimal() %+replace%    #replace elements we want to change

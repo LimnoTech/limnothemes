@@ -22,6 +22,8 @@ devtools::install_github("LimnoTech/limnothemes")
 
 # Base ggplot
 
+library(limnothemes)
+
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color=Species)) +
   geom_point()
   

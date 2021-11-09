@@ -12,6 +12,3 @@ theme_limno()
 \description{
 theme_limno()
 }
-\examples{
-ggplot(data, aes(x=x,y=y)) + geom_point() + theme_limno()
-}
